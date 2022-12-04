@@ -1,9 +1,15 @@
 ---
 title: "Untitled"
-author: "STAT 108"
-date: "1/26/2022"
+author: "Noah Arias"
+date: "12/3/2022"
 output: html_document
 ---
+
+library(tidyverse)
+library(knitr)
+library(broom)
+library(modelr)
+library(openintro)
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -32,6 +38,8 @@ The `elmhurst` dataset contains the following variables:
 ## Exploratory Data Analysis
 
 1. Plot a histogram to examine the distribution of `gift_aid`. What is the approximate shape of the distribution? Also note if there are any outliers in the dataset.
+
+
 
 2. To better understand the distribution of `gift_aid`, we would like calculate measures of center and spread of the distribution. Use the `summarise` function to calculate the appropriate measures of center (mean or median) and spread (standard deviation or IQR) based on the shape of the distribution from Exercise 1. Show the code and output, and state the measures of center and spread in your narrative. *Be sure to report your conclusions for this exercise and the remainder of the lab in dollars.*
 
